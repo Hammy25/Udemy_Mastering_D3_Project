@@ -1,0 +1,29 @@
+#logo {
+  height:50px;
+}
+
+.navbar-brand {
+  height: 60px;
+  padding: 5px 0px;
+}
+
+body {
+  font-family: "Comic Neue", cursive;
+  background-color: #F1F3F3    
+}
+
+#stack-area, #timeline, #company-size, #units-sold, #revenue, #call-duration{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 0;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.svg-content{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
